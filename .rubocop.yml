@@ -1,0 +1,23 @@
+AllCops:
+  TargetRubyVersion: 2.6
+
+Style/StringLiterals:
+  Enabled: true
+  EnforcedStyle: single_quotes
+
+Style/StringLiteralsInInterpolation:
+  Enabled: true
+  EnforcedStyle: single_quotes
+
+Style/PercentLiteralDelimiters:
+  Enabled: true
+  PreferredDelimiters:
+    default: ()
+    '%i': '[]'
+    '%I': '[]'
+    '%r': '{}'
+    '%w': '[]'
+    '%W': '[]'
+
+Layout/LineLength:
+  Max: 100
